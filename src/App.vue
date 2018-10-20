@@ -59,6 +59,7 @@
 </template>
 <script>
 import Produto from "./services/produtos.js";
+
 export default {
   data() {
     return {
@@ -117,13 +118,13 @@ export default {
 
 <style>
 .blue.darken-1 {
-    background-color: #00427b !important;
+    background-color: #4DBA87 !important;
 }
 .btn, .btn-large, .btn-small {
-      background-color: #063c6b !important ;
+      background-color: #4DBA87 !important ;
 }
 .btn, .btn-large, .btn-small:hover {
-      background-color: #00427bd4 !important ;
+      background-color: rgba(77, 186, 135, 0.63) !important ;
 }
 input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
     border-bottom: 1px solid #00427b;
