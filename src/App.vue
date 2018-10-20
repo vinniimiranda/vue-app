@@ -87,19 +87,20 @@ export default {
     salvar() {
       if (!this.produto.id) {
         Produto.salvar(this.produto).then(res => {
-          this.produto = {};
+          this.produto = {id: "", titulo:"", descricao:"", preco: ""};
           alert("Produto cadastrado com sucesso!");
           this.listar();
         });
       } else {
         Produto.atualizar(this.produto).then(res => {
-          this.produto = {};
+          this.produto = {id: "", titulo:"", descricao:"", preco: ""};
           this.listar();
           alert("Produto atualizado com sucesso!");
         });
       }
     },
     editar(produto) {
+      console.log(produto)
       this.produto.id = produto._id;
       this.produto.titulo = produto.titulo;
       this.produto.descricao = produto.descricao;
