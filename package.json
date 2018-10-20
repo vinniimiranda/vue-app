@@ -1,5 +1,5 @@
 {
-  "name": "App em Vue",
+  "name": "consumindo-api",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -11,11 +11,13 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "register-service-worker": "^1.0.0",
     "vue": "^2.5.17"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.5",
     "@vue/cli-plugin-eslint": "^3.0.5",
+    "@vue/cli-plugin-pwa": "^3.0.5",
     "@vue/cli-service": "^3.0.5",
     "vue-template-compiler": "^2.5.17"
   },
