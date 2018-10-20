@@ -42,10 +42,11 @@
             <td>{{produto.descricao}}</td>
             <td>{{produto.preco}}</td>
             <td>
-              <button class="waves-effect btn-small blue darken-1" @click="editar(produto)"><i class="material-icons">create</i></button>
-              <button class="waves-effect btn-small red darken-1" @click="deletar(produto._id)"><i class="material-icons">delete_sweep</i></button>
+              <a @click="editar(produto)"><i class="material-icons">create</i></a>
             </td>
-
+            <td>
+              <a @click="deletar(produto._id)"><i class="material-icons">delete_sweep</i></a>
+            </td>
           </tr>
 
         </tbody>
