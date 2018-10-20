@@ -21,7 +21,7 @@
 
       </form>
 
-      <table>
+      <table class='centered responsive'>
 
         <thead>
 
@@ -118,18 +118,23 @@ export default {
 
 <style>
 .blue.darken-1 {
-    background-color: #4DBA87 !important;
+    background-color: #00427b !important;
 }
 .btn, .btn-large, .btn-small {
-      background-color: #4DBA87 !important ;
+      background-color: #00427b !important ;
 }
 .btn, .btn-large, .btn-small:hover {
-      background-color: rgba(77, 186, 135, 0.63) !important ;
+      background-color:  #00427bad !important ;
 }
 input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
     border-bottom: 1px solid #00427b;
-    -webkit-box-shadow: 0 1px 0 0 #0643b6c9;
+    -webkit-box-shadow: 0 1px 0 0 hsla(219, 94%, 37%, 0.788);
     box-shadow: 0 1px 0 0 #00427b;
 }
     
+    nav .brand-logo.center {
+    left: 30%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
 </style>
