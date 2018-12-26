@@ -1,21 +1,10 @@
-# consumindo-api
+Utilizando Vue para consumir uma API em Node de produtos utilizando o MongoDB
 
-## Project setup
-```
-npm install
-```
+Esse projeto se trata de uma SPA, sendo estilizada com a Framework Materialize (Material-Design) sendo também responsivo para diversos dispositivos, além de ser uma PWA.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+No momento ela realiza um CRUD básico através do axios, que faz as requisições HTTP para a API em Node.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+O resultado pode ser visualizado através do link: https://vm-cliente-vue.herokuapp.com/
 
-### Lints and fixes files
-```
-npm run lint
-```
+
+
