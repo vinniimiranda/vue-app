@@ -1,4 +1,4 @@
-Utilizando Vue para consumir uma API em Node de produtos utilizando o MongoDB
+Utilizando Vue para consumir uma API em Node de produtos no MongoDB
 
 Esse projeto se trata de uma SPA, sendo estilizada com a Framework Materialize (Material-Design) sendo também responsivo para diversos dispositivos, além de ser uma PWA.
 
